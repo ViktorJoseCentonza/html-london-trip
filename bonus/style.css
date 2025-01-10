@@ -1,0 +1,66 @@
+body {
+    background-image: url(../assets/img/pexels-bill-emrich-230794-0.jpg), url(../assets/img/pexels-bill-emrich-230794-1.jpg), url(../assets/img/pexels-bill-emrich-230794-2.jpg);
+    background-position: top left, top center, top right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 33.3%, 33.4%, 33.4%;
+    background-attachment: fixed;
+    background-color: rgba(7, 2, 31, 0.966);
+    color: white;
+}
+
+.main-title {
+    font-size: 150px;
+    display: inline;
+    position: relative;
+}
+
+.main-nav {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.main-nav a {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+
+    font-size: 100px;
+    color: inherit;
+    text-decoration: inherit;
+
+    border-radius: 20px;
+    background-color: rgba(7, 2, 31, 0.966);
+    outline: auto;
+    outline-style: groove;
+}
+
+.sub-nav {
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sub-nav a {
+    font-size: 50px;
+    margin-left: 40px;
+    color: inherit;
+    text-decoration: inherit;
+
+    border-radius: 20px;
+    background-color: rgba(7, 2, 31, 0.966);
+    outline: auto;
+    outline-style: groove;
+}
+
+.my-expenses {
+    position: absolute;
+    left: 50%;
+    font-size: 70px;
+}
+
+/* .things-to-do {}
+
+.useful-info {}
+
+.my-images {} */
